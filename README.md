@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **JavaScript, HTML, CSS, SQL, Node.JS, PHP, Git, Github, Visual Studio Code, Markdown**
 
-- 👨‍💻 All of my projects are available at github.com/mateusrodriguees?tab=repositories
+- 👨‍💻 All of my projects are available at https://github.com/mateusrodriguees?tab=repositories
 
 
 
