@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning HTML, CSS, JavaScript, Node.JS, PHP and database.
 
-- 💬 Ask me about **JavaScript, HTML, CSS, SQL, Node.JS, PHP, Git, Github, Visual Studio Code, Markdown, Bootstrap**
+- 💬 Ask me about **JavaScript, HTML, CSS, SQL, Node.JS, PHP, Git, Github, Visual Studio Code, Markdown, Bootstrap, React, React Native**
 
 - 👨‍💻 All of my projects are available at https://github.com/mateusrodriguees?tab=repositories
 
