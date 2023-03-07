@@ -5,7 +5,7 @@
 
 - 🔥 An student of web techs and enthusiast of programmation
 
-- - 🌱 I’m currently learning HTML, CSS, JavaScript, Node.JS, PHP and database.
+- 🌱 I’m currently learning HTML, CSS, JavaScript, Node.JS, PHP and database.
 
 - 💬 Ask me about **JavaScript, HTML, CSS, SQL, Node.JS, PHP, Git, Github, Visual Studio Code, Markdown, Bootstrap**
 
