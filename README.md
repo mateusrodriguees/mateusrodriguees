@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gist/mateusrodriguees/6f6bf1161dd69c13a5921ce699a73cc2/raw/673ce2a90530ce7369e2f6ac8e518624f94ec445/githubcard.svg" height="420em" alt="Mateus Rodrigues" />
+  <img src="/profile-card.svg" height="420em" alt="Mateus Rodrigues" />
 </p>
 
 <h1 align="center">Mateus Rodrigues</h1>
@@ -30,15 +30,6 @@
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
-
----
-
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mateusrodriguees&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mateusrodriguees&layout=compact&theme=transparent&hide_border=true" alt="Top languages" height="165" />
 </p>
 
 ---
