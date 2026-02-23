@@ -1,60 +1,51 @@
-<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background -->
     <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
       <stop offset="0%" stop-color="#1e1e2f"></stop>
       <stop offset="100%" stop-color="#0d0d14"></stop>
     </radialGradient>
 
-    <!-- Accent Gradient -->
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7f5af0"></stop>
       <stop offset="100%" stop-color="#2cb67d"></stop>
     </linearGradient>
 
-    <!-- Glow -->
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="8" result="coloredBlur"></feGaussianBlur>
-      <feMerge>
-        <feMergeNode in="coloredBlur"></feMergeNode>
-        <feMergeNode in="SourceGraphic"></feMergeNode>
-      </feMerge>
-    </filter>
-
-    <!-- Clip for profile image -->
+    <!-- Clip -->
     <clipPath id="clipCircle">
       <circle cx="400" cy="350" r="120"></circle>
     </clipPath>
+
+    <!-- Pattern para imagem -->
+    <pattern id="avatarPattern" patternUnits="objectBoundingBox" width="1" height="1">
+      <image href="https://media.licdn.com/dms/image/v2/D4D35AQHAUwHqvZESZg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1707741500437?e=1772416800&v=beta&t=JUpbTsdLbyItYpM6rrUHOIgjRj0yY5SIuQUFmIhIpCk" width="240" height="240" preserveAspectRatio="xMidYMid slice"></image>
+    </pattern>
+
   </defs>
 
-  <!-- Background -->
+  <!-- Fundo -->
   <rect width="800" height="900" fill="url(#bgGradient)"></rect>
 
-  <!-- Decorative Accent Lines -->
-  <path d="M100 650 Q400 550 700 650" stroke="url(#accentGradient)" stroke-width="2" fill="none" opacity="0.25"></path>
-  <path d="M150 700 Q400 600 650 700" stroke="url(#accentGradient)" stroke-width="1.5" fill="none" opacity="0.15"></path>
+  <!-- Moldura -->
+  <circle cx="400" cy="350" r="130" fill="#111" stroke="url(#accentGradient)" stroke-width="3"></circle>
 
-  <!-- Profile Border -->
-  <circle cx="400" cy="350" r="130" fill="#111" stroke="url(#accentGradient)" stroke-width="3" filter="url(#softGlow)"></circle>
-
-  <!-- Profile Image (Sua foto GitHub) -->
-  <image href="https://avatars.githubusercontent.com/u/84820802?v=4" x="280" y="230" width="240" height="240" clip-path="url(#clipCircle)"></image>
+  <!-- Avatar -->
+  <circle cx="400" cy="350" r="120" fill="url(#avatarPattern)" clip-path="url(#clipCircle)"></circle>
 
   <!-- Nome -->
-  <text x="400" y="560" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="600">
+  <text x="400" y="560" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial" font-size="42" font-weight="600">
     Mateus Rodrigues
   </text>
 
   <!-- Subtitle -->
-  <text x="400" y="610" text-anchor="middle" fill="#cfcfcf" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" opacity="0.8">
+  <text x="400" y="610" text-anchor="middle" fill="#cfcfcf" font-family="Segoe UI, Helvetica, Arial" font-size="20" opacity="0.8">
     A student of web techs and systems development
   </text>
 
-  <!-- GitHub Icon + Username (Centralizado como bloco) -->
+  <!-- GitHub Icon + Username -->
   <g transform="translate(280,660)">
-    
-    <!-- GitHub Icon -->
+
     <path fill="#ffffff" d="M20 0C8.95 0 0 9 0 20c0 8.84 5.73 16.33 13.68 18.98 1 .18 1.37-.43 1.37-.96
       0-.47-.02-2.03-.03-3.69-5.56 1.21-6.73-2.68-6.73-2.68-.91-2.32-2.22-2.94-2.22-2.94
       -1.82-1.25.14-1.23.14-1.23 2.01.14 3.07 2.07 3.07 2.07
@@ -68,8 +59,7 @@
       0 .53.36 1.15 1.38.95C34.27 36.32 40 28.84 40 20
       40 9 31.05 0 20 0z"></path>
 
-    <!-- Username -->
-    <text x="60" y="25" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" alignment-baseline="middle">
+    <text x="60" y="25" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial" font-size="22" alignment-baseline="middle">
       mateusrodriguees
     </text>
 

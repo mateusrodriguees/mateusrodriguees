@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="/profile-card.svg" height="420em" alt="Mateus Rodrigues" />
+  <img src="profile-card.svg" height="420em" alt="Mateus Rodrigues" />
 </p>
 
 <h1 align="center">Mateus Rodrigues</h1>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mateusrodriguees&color=6e7681&label=profile+views" alt="Profile views" />
+  <img src="mateus" alt="Profile views" />
 </p>
 
 <p align="center">
