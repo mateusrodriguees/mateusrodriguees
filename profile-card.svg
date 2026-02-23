@@ -30,15 +30,14 @@
 
   <!-- IMAGEM DO AVATAR -->
   <image
-    href="https://avatars.githubusercontent.com/u/84820802?v=4"
-    x="280"
-    y="230"
-    width="240"
-    height="240"
-    clip-path="url(#circleClip)"
-    preserveAspectRatio="xMidYMid slice"
-  />
-
+  href="https://raw.githubusercontent.com/mateusrodriguees/mateusrodriguees/main/mateus.jpg"
+  x="280"
+  y="230"
+  width="240"
+  height="240"
+  clip-path="url(#circleClip)"
+  preserveAspectRatio="xMidYMid slice"
+/>
   <!-- Nome -->
   <text x="400" y="560"
         text-anchor="middle"
