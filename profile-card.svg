@@ -29,7 +29,7 @@
           stroke-width="3"/>
 
   <!-- IMAGEM DO AVATAR -->
-  <image
+ <image
   href="https://raw.githubusercontent.com/mateusrodriguees/mateusrodriguees/main/mateus.jpg"
   x="280"
   y="230"
@@ -37,6 +37,7 @@
   height="240"
   clip-path="url(#circleClip)"
   preserveAspectRatio="xMidYMid slice"
+  image-rendering="optimizeQuality"
 />
   <!-- Nome -->
   <text x="400" y="560"
