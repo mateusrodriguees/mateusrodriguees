@@ -1,37 +1,55 @@
 <p align="center">
-  <img src="./profile-card.svg" height="420em" alt="Mateus Rodrigues" />
+  <img src="./profile-card.svg" height="380em" />
 </p>
 
-<h1 align="center">Mateus Rodrigues</h1>
+<pre align="center">
+┌─[mateus@github]─[~/portfolio]
+└──╼ $ whoami
+Mateus Rodrigues
+
+┌─[mateus@github]─[~/portfolio]
+└──╼ $ cat about.txt
+Estudante de tecnologias web
+Desenvolvimento de sistemas
+Foco em backend e web moderno
+
+┌─[mateus@github]─[~/portfolio]
+└──╼ $ stack --list
+HTML
+CSS
+JavaScript
+Node.js
+PHP
+React
+Laravel
+MySQL
+Git
+</pre>
 
 <p align="center">
-  Estudante de tecnologias web e desenvolvimento de sistemas.<br>
-  Foco em HTML, CSS, JavaScript, Node.js, PHP e bancos de dados.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=2CB67D&center=true&vCenter=true&width=600&lines=Building+things+with+code...;Always+learning.;Improving+every+day." />
 </p>
+
+---
+
+### 📂 Repositórios
 
 <p align="center">
   <a href="https://github.com/mateusrodriguees?tab=repositories">
-    <strong>Ver repositórios</strong>
+    <img src="https://img.shields.io/badge/ls%20-la-111111?style=for-the-badge&logo=gnubash&logoColor=white" />
   </a>
 </p>
 
 ---
 
-### 🛠 Stack
+### 📊 Stats
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,nodejs,html,css,php,react,laravel,mysql,git" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=mateusrodriguees&show_icons=true&theme=transparent&hide_border=true&title_color=2cb67d&icon_color=2cb67d&text_color=ffffff" />
 </p>
 
 ---
 
-### 🌎 Contato
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/mateus-da-silva-rodriguees/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/it.mateus">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a12,100:1a1a2e&height=40&section=footer"/>
 </p>

@@ -3,44 +3,91 @@
 
   <defs>
     <!-- Background -->
-   <!-- <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
+    <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
       <stop offset="0%" stop-color="#1e1e2f"/>
       <stop offset="100%" stop-color="#0d0d14"/>
     </radialGradient>
--->
+
+    <!-- Accent Gradient -->
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7f5af0"/>
       <stop offset="100%" stop-color="#2cb67d"/>
     </linearGradient>
 
-    <!-- Clip para foto -->
-    <clipPath id="circleClip">
-      <circle cx="400" cy="350" r="120"/>
-    </clipPath>
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Fundo -->
   <rect width="800" height="900" fill="url(#bgGradient)"/>
 
   <!-- Moldura externa -->
-  <circle cx="400" cy="350" r="130"
+  <circle cx="400" cy="350" r="150"
           fill="none"
           stroke="url(#accentGradient)"
-          stroke-width="3"/>
+          stroke-width="3"
+          filter="url(#glow)"/>
 
-  <!-- IMAGEM DO AVATAR (caminho relativo: mateus.jpg na raiz do repo) -->
-  <image
-  href="/mateus.jpg"
-  x="280"
-  y="230"
-  width="240"
-  height="240"
-  clip-path="url(#circleClip)"
-  preserveAspectRatio="xMidYMid slice"
-  image-rendering="optimizeQuality"
-/>
+  <!-- ÁTOMO FUTURISTA -->
+  <g transform="translate(400,350)" filter="url(#glow)">
+
+    <!-- Núcleo -->
+    <circle r="20" fill="#7f5af0"/>
+
+    <!-- Órbita 1 -->
+    <ellipse rx="120" ry="40"
+             fill="none"
+             stroke="#2cb67d"
+             stroke-width="2">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Órbita 2 -->
+    <ellipse rx="120" ry="40"
+             fill="none"
+             stroke="#00f5ff"
+             stroke-width="2"
+             transform="rotate(60)">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="60"
+        to="420"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Órbita 3 -->
+    <ellipse rx="120" ry="40"
+             fill="none"
+             stroke="#7f5af0"
+             stroke-width="2"
+             transform="rotate(-60)">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="-60"
+        to="300"
+        dur="10s"
+        repeatCount="indefinite"/>
+    </ellipse>
+
+  </g>
+
   <!-- Nome -->
-  <text x="400" y="560"
+  <text x="400" y="600"
         text-anchor="middle"
         fill="#ffffff"
         font-family="Segoe UI, Helvetica, Arial"
@@ -50,7 +97,7 @@
   </text>
 
   <!-- Subtitle -->
-  <text x="400" y="610"
+  <text x="400" y="650"
         text-anchor="middle"
         fill="#cfcfcf"
         font-family="Segoe UI, Helvetica, Arial"
@@ -59,8 +106,8 @@
     A student of web techs and systems development
   </text>
 
-  <!-- GitHub Icon + Username -->
-  <g transform="translate(280,660)">
+  <!-- GitHub -->
+  <g transform="translate(280,700)">
     <path fill="#ffffff" d="M20 0C8.95 0 0 9 0 20c0 8.84 5.73 16.33 13.68 18.98 1 .18 1.37-.43 1.37-.96
       0-.47-.02-2.03-.03-3.69-5.56 1.21-6.73-2.68-6.73-2.68-.91-2.32-2.22-2.94-2.22-2.94
       -1.82-1.25.14-1.23.14-1.23 2.01.14 3.07 2.07 3.07 2.07
