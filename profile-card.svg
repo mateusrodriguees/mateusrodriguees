@@ -21,10 +21,9 @@
   <clipPath id="circleClip">
     <circle cx="400" cy="280" r="120" />
   </clipPath>
-</defs>
 
 <image
-  href="https://github.com/mateusrodriguees.png"
+  href="https://avatars.githubusercontent.com/mateusrodriguees"
   x="280"
   y="160"
   width="240"
