@@ -28,9 +28,9 @@
           stroke="url(#accentGradient)"
           stroke-width="3"/>
 
-  <!-- IMAGEM DO AVATAR -->
- <image
-  href="https://raw.githubusercontent.com/mateusrodriguees/mateusrodriguees/main/mateus.jpg"
+  <!-- IMAGEM DO AVATAR (caminho relativo: mateus.jpg na raiz do repo) -->
+  <image
+  href="mateus.jpg"
   x="280"
   y="230"
   width="240"
