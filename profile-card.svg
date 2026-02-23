@@ -3,11 +3,11 @@
 
   <defs>
     <!-- Background -->
-    <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
+   <!-- <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
       <stop offset="0%" stop-color="#1e1e2f"/>
       <stop offset="100%" stop-color="#0d0d14"/>
     </radialGradient>
-
+-->
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7f5af0"/>
       <stop offset="100%" stop-color="#2cb67d"/>
@@ -30,7 +30,7 @@
 
   <!-- IMAGEM DO AVATAR (caminho relativo: mateus.jpg na raiz do repo) -->
   <image
-  href="mateus.jpg"
+  href="/mateus.jpg"
   x="280"
   y="230"
   width="240"
