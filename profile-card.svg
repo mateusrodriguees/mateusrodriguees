@@ -1,61 +1,66 @@
-<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="900" viewBox="0 0 800 900"
+     xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <!-- Background -->
     <radialGradient id="bgGradient" cx="50%" cy="40%" r="70%">
-      <stop offset="0%" stop-color="#1e1e2f"></stop>
-      <stop offset="100%" stop-color="#0d0d14"></stop>
+      <stop offset="0%" stop-color="#1e1e2f"/>
+      <stop offset="100%" stop-color="#0d0d14"/>
     </radialGradient>
 
     <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7f5af0"></stop>
-      <stop offset="100%" stop-color="#2cb67d"></stop>
+      <stop offset="0%" stop-color="#7f5af0"/>
+      <stop offset="100%" stop-color="#2cb67d"/>
     </linearGradient>
 
-    <!-- Clip -->
-    <clipPath id="clipCircle">
-      <circle cx="400" cy="350" r="120"></circle>
+    <!-- Clip para foto -->
+    <clipPath id="circleClip">
+      <circle cx="400" cy="350" r="120"/>
     </clipPath>
-
-<defs>
-  <clipPath id="circleClip">
-    <circle cx="400" cy="280" r="120" />
-  </clipPath>
-
-<image
-  href="https://avatars.githubusercontent.com/mateusrodriguees"
-  x="280"
-  y="160"
-  width="240"
-  height="240"
-  clip-path="url(#circleClip)"
-  preserveAspectRatio="xMidYMid slice"
-/>
-
   </defs>
 
   <!-- Fundo -->
-  <rect width="800" height="900" fill="url(#bgGradient)"></rect>
+  <rect width="800" height="900" fill="url(#bgGradient)"/>
 
-  <!-- Moldura -->
-  <circle cx="400" cy="350" r="130" fill="#111" stroke="url(#accentGradient)" stroke-width="3"></circle>
+  <!-- Moldura externa -->
+  <circle cx="400" cy="350" r="130"
+          fill="none"
+          stroke="url(#accentGradient)"
+          stroke-width="3"/>
 
-  <!-- Avatar -->
-  <circle cx="400" cy="350" r="120" fill="url(#avatarPattern)" clip-path="url(#clipCircle)"></circle>
+  <!-- IMAGEM DO AVATAR -->
+  <image
+    href="https://avatars.githubusercontent.com/u/84820802?v=4"
+    x="280"
+    y="230"
+    width="240"
+    height="240"
+    clip-path="url(#circleClip)"
+    preserveAspectRatio="xMidYMid slice"
+  />
 
   <!-- Nome -->
-  <text x="400" y="560" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial" font-size="42" font-weight="600">
+  <text x="400" y="560"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-family="Segoe UI, Helvetica, Arial"
+        font-size="42"
+        font-weight="600">
     Mateus Rodrigues
   </text>
 
   <!-- Subtitle -->
-  <text x="400" y="610" text-anchor="middle" fill="#cfcfcf" font-family="Segoe UI, Helvetica, Arial" font-size="20" opacity="0.8">
+  <text x="400" y="610"
+        text-anchor="middle"
+        fill="#cfcfcf"
+        font-family="Segoe UI, Helvetica, Arial"
+        font-size="20"
+        opacity="0.8">
     A student of web techs and systems development
   </text>
 
   <!-- GitHub Icon + Username -->
   <g transform="translate(280,660)">
-
     <path fill="#ffffff" d="M20 0C8.95 0 0 9 0 20c0 8.84 5.73 16.33 13.68 18.98 1 .18 1.37-.43 1.37-.96
       0-.47-.02-2.03-.03-3.69-5.56 1.21-6.73-2.68-6.73-2.68-.91-2.32-2.22-2.94-2.22-2.94
       -1.82-1.25.14-1.23.14-1.23 2.01.14 3.07 2.07 3.07 2.07
@@ -67,12 +72,14 @@
       1.28 1.4 2.06 3.19 2.06 5.37 0 7.67-4.68 9.37-9.14 9.86
       .72.62 1.36 1.84 1.36 3.71 0 2.68-.02 4.84-.02 5.49
       0 .53.36 1.15 1.38.95C34.27 36.32 40 28.84 40 20
-      40 9 31.05 0 20 0z"></path>
-
-    <text x="60" y="25" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial" font-size="22" alignment-baseline="middle">
+      40 9 31.05 0 20 0z"/>
+    <text x="60" y="25"
+          fill="#ffffff"
+          font-family="Segoe UI, Helvetica, Arial"
+          font-size="22"
+          alignment-baseline="middle">
       mateusrodriguees
     </text>
-
   </g>
 
 </svg>
