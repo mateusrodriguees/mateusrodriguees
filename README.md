@@ -36,8 +36,7 @@
 ### 📊 Stats
 
 <p align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=mateusrodriguees&show_icons=true&theme=transparent&hide_border=true&title_color=2cb67d&icon_color=7f5af0&text_color=ffffff" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mateusrodriguees&layout=compact&theme=transparent&hide_border=true&title_color=2cb67d&text_color=ffffff" />
+  <img src="https://komarev.com/ghpvc/?username=mateusrodriguees&style=flat-square&color=blue" alt="Profile views" />
 </p>
 
 ---
