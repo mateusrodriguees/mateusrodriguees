@@ -4,7 +4,7 @@
 
 <h1 align="center">Mateus Rodrigues</h1>
 <p align="center">
-  <img src="mateus" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=mateusrodriguees&style=flat-square&color=blue" alt="Profile views" />
 </p>
 
 <p align="center">
