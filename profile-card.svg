@@ -19,7 +19,7 @@
 
     <!-- Pattern para imagem -->
     <pattern id="avatarPattern" patternUnits="objectBoundingBox" width="1" height="1">
-      <image href="/mateus.jpg" width="240" height="240" preserveAspectRatio="xMidYMid slice"></image>
+      <image href="./mateus.jpg" width="240" height="240" preserveAspectRatio="xMidYMid slice"></image>
     </pattern>
 
   </defs>
